@@ -159,7 +159,8 @@ spørsmål og se resultater via et sikret API.
 ## Tidsskjema
 - Tirsdag (dag 1)
   - Gjennomgang av fagprøve og krav (1t)
-  - Skrive plandokument og lage skisser (6t)
+  - Skrive plandokument og lage skisser (4t)
+  - Begynne på oppsett av moduler og roller (2t)
   - Levere planlegging (0,25t)
   - Logging (0,25t)
 - Onsdag (dag 2)
