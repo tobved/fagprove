@@ -2,10 +2,7 @@
 07/04/2026 - 15/04/2026
 
 ## Mål med oppgaven
-Omega 365 har fått i oppdrag å utvikle en øvingsapplikasjon for skolebruk.
-Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål og
-få umiddelbar tilbakemelding, mens lærere kan administrere innhold og
-følge med på resultater via et sikret API.
+Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens lærere kan administrere innhold og følge med på resultater.
 
 ## Krav til oppgaven
 
