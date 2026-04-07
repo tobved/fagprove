@@ -13,7 +13,7 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
   - Se total poengsum ved slutten av quizen
   - Starte quizen på nytt med ett klikk
 - Lærer må kunne
-  - Opprette og administrere quizer per OrgUnit
+  - Opprette og administrere quizer
   - Legge til og fjerne spørsmål med svaralternativer
   - Se elevenes resultater per quiz
 - System må ha
@@ -74,6 +74,11 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
 - DrawSQL
   - Skisser for datamodell
 
+## Forklaring på Omega spesifikke utrykk
+- `aviw_` - prefiks for views i SQL
+- `astp_` - prefiks for stored procedures i SQL
+- `U/I/D-Trig` - Update/Insert/Delete trigger
+- OrgUnit - organisasjonsenhet, f.eks. i denne løsningen blir det en skole eller klasse
 
 ## Fremgangsmåte
 - Planlegge datamodell og app-layout
