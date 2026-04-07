@@ -78,6 +78,7 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
 ## Fremgangsmåte
 - Planlegge datamodell og app-layout
 - Lage roller og moduler for tilganger til systemet
+- Lage sql-templates for å sikre at alle objekter får default tilgangssjekk 
 - Lage SQL-objekter
   - Tabeller
     - Alle egendefinerte tabeller får Omega sine standard systemkolonner automatisk:
