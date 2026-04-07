@@ -26,9 +26,9 @@ Utvikle en enkel applikasjon hvor elever kan svare på spørsmål med flere valg
   - Tilgjengelig og brukervennlig design for alle brukergrupper
     - Personvern
       - Lagre minst mulig data
-      - Tilgangsstyring - elever ser kun egne resultater
+      - Tilgangsstyring: elever ser kun egne resultater
     - Dataintegritet
-      - Svar lagres per spørsmål via prosedyre - ikke i bulk ved slutten
+      - Svar lagres per spørsmål via prosedyre
       - Forhindrer juks ved at fasit aldri eksponeres til frontend før man svarer
     - Responsivt design
       - Støtte både mobil og datamaskin
