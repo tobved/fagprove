@@ -2,7 +2,7 @@
 07/04/2026 - 15/04/2026
 
 ## Mål med oppgaven
-Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens lærere kan administrere innhold og følge med på resultater.
+Utvikle en enkel applikasjon hvor elever kan svare på spørsmål med flere valgmuligheter, se sin poengsum ved slutten, og prøve igjen. Spørsmål og metadata ligger på en server, med et dokumentert integrasjonslag mellom klient og server. Lærere skal kunne administrere spørsmål, og se elevenes resultater.
 
 ## Krav til oppgaven
 
