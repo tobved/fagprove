@@ -2,9 +2,10 @@
 07/04/2026 - 15/04/2026
 
 ## Mål med oppgaven
-Utvikle en fullstack øvingsapplikasjon for skolebruk hvor elever kan 
-gjennomføre quizer med flervalgsspørsmål, og lærere kan administrere 
-spørsmål og se resultater via et sikret API.
+Omega 365 har fått i oppdrag å utvikle en øvingsapplikasjon for skolebruk.
+Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål og
+få umiddelbar tilbakemelding, mens lærere kan administrere innhold og
+følge med på resultater via et sikret API.
 
 ## Krav til oppgaven
 
