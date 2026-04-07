@@ -78,7 +78,10 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
 ## Fremgangsmåte
 - Planlegge datamodell og app-layout
 - Lage roller og moduler for tilganger til systemet
-- Lage sql-templates for å sikre at alle objekter får default tilgangssjekk 
+- Lage SQL-templates for å sikre konsistente tilgangssjekker på tvers av alle objekter
+  - Omega 365 CTP støtter templates for triggere og views som automatisk genererer standard sikkerhetssjekker
+  - Dette sikrer at alle tabeller får lik struktur på tilgangskontroll, og reduserer risikoen for å glemme sikkerhet på nye objekter
+  - Gjør det også enklere å vedlikeholde siden sikkerhetslogikken ligger ett sted
 - Lage SQL-objekter
   - Tabeller
     - Alle egendefinerte tabeller får Omega sine standard systemkolonner automatisk:
@@ -101,7 +104,7 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
       - ITrig: sett `Person_ID` fra innlogget bruker
       - U/D-Trig: blokkert for elever - kun systemet kan sette Completed/Cancelled
     - SubmissionsAnswers
-      - Én rad per besvart spørsmål med `Submission_ID`, `Question_ID` og `Option_ID`
+      - En rad per besvart spørsmål med `Submission_ID`, `Question_ID` og `Option_ID`
       - U/D-Trig: blokkert - svar kan ikke endres etter innsending
       - I-Trig: standard tilgangssjekk + sjekk på om `CreatedBy_ID` er den som inserter, sånn at folk ikke kan svare andre sine submissions
   - Views
@@ -138,7 +141,7 @@ Applikasjonen skal la elever gjennomføre quizer med flervalgsspørsmål, mens l
 - **Quizes** - hovedtabell for quizer, knyttet til en OrgUnit
 - **QuizesQuestions** - spørsmål tilhørende en quiz
 - **QuestionsOptions** - svaralternativer per spørsmål med `IsCorrect`-flagg (leses kun server-side)
-- **QuizesSubmissions** - én rad per elev per quiz-gjennomføring, med `Completed` og `Cancelled` for å spore status
+- **QuizesSubmissions** - en rad per elev per quiz-gjennomføring, med `Completed` og `Cancelled` for å spore status
 - **SubmissionsAnswers** - detaljlogg av hvert svar en elev har gitt, brukes til å beregne poengsum i view
 
 ### Forklaring av brukergrensesnitt
