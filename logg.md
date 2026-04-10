@@ -7,3 +7,8 @@ Jeg har skrevet plandokument og levert det inn. Det tok litt mindre tid enn forv
 <summary>Onsdag <sub>08/04</sub></summary>
 Jeg har fått satt opp databaseobjekter og begynt på appen for quiz spill
 </details>
+
+<details open>
+<summary>Torsdag <sub>09/04</sub></summary>
+Jeg har fått fullført mesteparten av quiz player appen og lagt til resultat side til når man er ferdig med quizen.
+</details>
